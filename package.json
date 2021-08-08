@@ -1,0 +1,21 @@
+{
+  "name": "fship-tdd-intro",
+  "description": "Fireship Test-Driven Development intro.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:YosepRA/fship-tdd-intro.git"
+  },
+  "license": "ISC",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "test": "jest --watchAll --verbose --coverage"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "vite": "^2.4.4"
+  }
+}
